@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import LoadingSpinner from "./components/LoadingSpinner";
 
-
 const NavBar = lazy (()=>import('./components/NavBar'))
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
         }
       >
         <div>
-          <div className="bg-primary2 pt-4">
+          <div className="bg-primary pt-4">
             <NavBar />
           </div>
         </div>
