@@ -25,7 +25,7 @@ const NavBar = () => {
   return (
     <header className="z-20">
       <nav className="flex justify-center">
-        <div className="flex items-center relative bg-white w-[90%] md:4/5 p-3 justify-between rounded-3xl">
+        <div className="flex items-center relative bg-white w-[90%] md:w-4/5 p-3 justify-between rounded-3xl">
           <div className="text-3xl font-bold flex">
             <img src={logo} alt="LOGO" className="w-20 h-20 ml-4" />
           </div>
