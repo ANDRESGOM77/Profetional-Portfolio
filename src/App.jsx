@@ -1,9 +1,18 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import LoadingSpinner from "./components/LoadingSpinner";
 
-const NavBar = lazy (()=>import('./components/NavBar'))
+const NavBar = lazy(() => import("./components/NavBar"));
+const Hero = lazy(() => import("./components/Hero"));
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <div className="min-h-screen">
       <Suspense
@@ -16,11 +25,12 @@ function App() {
         <div>
           <div className="bg-primary pt-4">
             <NavBar />
+            {/* <Hero /> */}
           </div>
         </div>
       </Suspense>
     </div>
   );
-}
+};
 
 export default App;
