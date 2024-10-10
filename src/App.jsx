@@ -2,9 +2,10 @@ import React, { Suspense, lazy, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import LoadingSpinner from "./components/LoadingSpinner";
+import NavBar from "./components/NavBar"
+import Hero from "./components/Hero"
+import SkillsSection from "./components/SkillsSection";
 
-const NavBar = lazy(() => import("./components/NavBar"));
-const Hero = lazy(() => import("./components/Hero"));
 
 const App = () => {
   useEffect(() => {
@@ -25,8 +26,9 @@ const App = () => {
         <div>
           <div className="bg-primary pt-4">
             <NavBar />
-            {/* <Hero /> */}
+            <Hero />
           </div>
+          <SkillsSection />
         </div>
       </Suspense>
     </div>
