@@ -1,4 +1,12 @@
 import React from "react";
+import email from "../assets/email.svg"
+import location from "../assets/location.svg"
+import phone from "../assets/phone.svg"
+import github from "../assets/github.svg"
+import instagram from "../assets/instagram.svg"
+import linkedin from "../assets/linkedin.svg"
+import facebook from "../assets/facebook.svg"
+
 
 const ContactSection = () => {
   return (
@@ -16,15 +24,33 @@ const ContactSection = () => {
             dolorem dolor!
           </p>
           <div className="mt-12">
-            <h2 className="text-white text-base font-bold">Email</h2>
+            <h2 className="text-white text-base font-bold">Contact Data</h2>
             <ul className="mt-4">
-                <li className="flex items-center">
+                <li className="flex items-center p-2">
                     <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <img src="" alt="new-post" width={24} height={24} />
+                        <img src={email} alt="new-post" width={24} height={24} />
                     </div>
                     <a href="" className="text-white text-sm ml-4">
                         <small className="block">Email</small>
                         <strong>andresgom2009@gmail.com</strong>
+                    </a>
+                </li>
+                <li className="flex items-center p-2">
+                    <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <img src={location} alt="new-post" width={24} height={24} />
+                    </div>
+                    <a href="" className="text-white text-sm ml-4">
+                        <small className="block">Location</small>
+                        <strong>andresgom2009@gmail.com</strong>
+                    </a>
+                </li>
+                <li className="flex items-center p-2">
+                    <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <img src={phone} alt="new-post" width={24} height={24} />
+                    </div>
+                    <a href="" className="text-white text-sm ml-4">
+                        <small className="block">Phone</small>
+                        <strong>+61 0404332389</strong>
                     </a>
                 </li>
             </ul>
@@ -34,17 +60,17 @@ const ContactSection = () => {
                 <ul className="flex mt-4 space-x-4">
                     <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <a href="https://www.linkedin.com/in/andres-julian-gomez-suarez/">
-                            <img src="https://img.icons8.com/?size=100&id=04ea2IMk0otP&format=png&color=000000" alt="instagram" width={24} height={24} />
+                            <img src={linkedin} alt="linkedin" width={24} height={24} />
                         </a>
                     </li>
                     <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <a href="">
-                            <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=000000" alt="instagram" width={24} height={24} />
+                            <img src={instagram} alt="instagram" width={24} height={24} />
                         </a>
                     </li>
                     <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <a href="">
-                            <img src="https://icons8.com/icon/32292/instagram" alt="instagram" width={24} height={24} />
+                            <img src={facebook} alt="facebook" width={24} height={24} />
                         </a>
                     </li>
                 </ul>
