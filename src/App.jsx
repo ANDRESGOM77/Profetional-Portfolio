@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
 import SkillsSection from "./components/SkillsSection";
 import AboutSection from "./components/AboutSection";
+import ProjectsSection from "./components/ProjectsSection";
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           </div>
           <SkillsSection />
           <AboutSection />
+          <ProjectsSection />
         </div>
       </Suspense>
     </div>
