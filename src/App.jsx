@@ -5,6 +5,7 @@ import LoadingSpinner from "./components/LoadingSpinner";
 import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
 import SkillsSection from "./components/SkillsSection";
+import AboutSection from "./components/AboutSection";
 
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
             <Hero />
           </div>
           <SkillsSection />
+          <AboutSection />
         </div>
       </Suspense>
     </div>
