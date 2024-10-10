@@ -8,6 +8,8 @@ import SkillsSection from "./components/SkillsSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import ServicesSection from "./components/ServicesSection";
 
 
 const App = () => {
@@ -22,19 +24,21 @@ const App = () => {
       <Suspense
         className={
           <div className="flex justify-center items-center min-h-screen">
-            <LoadingSpinner />
+            <LoadingSpinner/>
           </div>
         }
       >
         <div>
           <div className="bg-primary pt-4">
-            <NavBar />
-            <Hero />
+            <NavBar/>
+            <Hero/>
           </div>
-          <SkillsSection />
-          <AboutSection />
-          <ProjectsSection />
-          <ContactSection />
+          <SkillsSection/>
+          <ServicesSection/>
+          <AboutSection/>
+          <ProjectsSection/>
+          <ContactSection/>
+          <Footer/>
         </div>
       </Suspense>
     </div>
