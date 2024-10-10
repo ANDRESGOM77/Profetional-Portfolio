@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <section
       className="bg-black w-full border-b-5 border-y-4 border-primary2"
-      id="contact"
+      id="Contact"
     >
       <div className="grid sm:grid-cols-2 p-8">
         <div data-aos="zoom-in-down">

@@ -74,7 +74,7 @@ const ProjectsSection = () => {
         );
 
   return (
-  <section className="mt-10 md:mt-40" id="projects">
+  <section className="mt-6 mb-6 md:mt-30" id="Projects">
         <h2 className="md:text-center text-4xl font-bold text-gray-950 sm:text-6xl lg:mb-12" data-aos='fade-up'>My Latest Projects</h2>
         <div className="flex justify-center mt-10 md:mt-1">
             {['all','web development','practice'].map(category=>(

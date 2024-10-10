@@ -25,7 +25,7 @@ const ServicesSection = () => {
     },
   ];
   return (
-    <section className="mt-4 md:mt-40" id="services">
+    <section className="mt-8 md:mt-30" id="Services">
         <h2 className="text-center text-4xl font-bold text-gray-950 sm:text-6xl lg:mb-12" data-aos='fade-ip'>My Services</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-4 xl:gap-16 xl:px-16 mt-10 md:mt-0 ">
         {services.map(service =>(
