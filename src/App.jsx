@@ -7,6 +7,7 @@ import Hero from "./components/Hero"
 import SkillsSection from "./components/SkillsSection";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
           <SkillsSection />
           <AboutSection />
           <ProjectsSection />
+          <ContactSection />
         </div>
       </Suspense>
     </div>
