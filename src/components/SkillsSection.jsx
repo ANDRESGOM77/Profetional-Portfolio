@@ -1,71 +1,68 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { FaBootstrap } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiHandlebarsdotjs } from "react-icons/si";
-import { GrGraphQl } from "react-icons/gr";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { BiLogoPostgresql } from "react-icons/bi";
+import html from "../assets/html.svg"
+import css from "../assets/css3.svg"
+import js from "../assets/javascript.svg"
+import bootstrap from "../assets/bootstrap.svg"
+import exp from "../assets/express-js.svg"
+import mongo from "../assets/mongo-db.svg"
+import tailwind from "../assets/tailwind-css.svg"
+import react from "../assets/react.svg"
+import postgres from "../assets/postgresql.svg"
+import graphql from "../assets/graphql.svg"
+import node from "../assets/nodejs.svg"
+import mySql from "../assets/icons8-mysql.svg"
+
+
 
 const SkillsSection = () => {
   const skills = [
     {
       id: 1,
-      icon: FaHtml5,
+      icon: html,
     },
     {
       id: 2,
-      icon: IoLogoCss3,
+      icon: css,
     },
     {
       id: 3,
-      icon: IoLogoJavascript,
+      icon: js,
     },
     {
       id: 4,
-      icon: FaBootstrap,
+      icon: bootstrap,
     },
     {
       id: 5,
-      icon: RiTailwindCssFill,
+      icon:  tailwind,
     },
     {
       id: 6,
-      icon: GrMysql,
-    },
-    {
-      id: 7,
-      icon: BiLogoPostgresql,
+      icon: node ,
     },
     {
       id: 8,
-      icon: FaNodeJs,
+      icon: postgres,
     },
     {
       id: 9,
-      icon: SiHandlebarsdotjs,
+      icon: mongo,
     },
     {
       id: 10,
-      icon: SiExpress,
+      icon: exp,
     },
     {
       id: 11,
-      icon: SiMongodb,
+      icon: mySql,
     },
     {
       id: 12,
-      icon: FaReact,
+      icon: react,
     },
     {
       id: 13,
-      icon: GrGraphQl,
+      icon: graphql,
     },
   ];
   return (
@@ -87,10 +84,10 @@ const SkillsSection = () => {
                   WebkitBackdropFilter: "blur(9px)",
                 }}
               ></div>
-              <div
-                key={skill.icon}
+              <img
+                src={skill.icon}
                 alt="skill icon"
-                className="w-10 h-12 absolute z-10"
+                className="w-22 h-16 absolute z-10"
               />
             </figure>
           </div>

@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       colors:{
-        primary: '#219c90',
-        primary2: '#FFF455',
-      }
+        primary: '#faf4d3',
+        secondary: '#e28413',
+        border:'#000022',
+        buttons: '#ffffff',
+        paragraph: '#f6f7eb',
+      },
     },
   },
   plugins: [],

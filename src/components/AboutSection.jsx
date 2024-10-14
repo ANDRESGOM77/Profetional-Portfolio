@@ -42,7 +42,7 @@ const AboutSection = () => {
     },
   ];
   return (
-  <section className="mt-8 md:mt-30" id="About">
+  <section className="mt-8 md:mt-30" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16">
             <div className="mt-4 md:mt-0 text-left flex flex-col z-10 h-full">
                 <h2 className="text-4xl text-green-950 sm:text-6xl lg:mb-8 font-bold" data-aos='zoom-in-up'>My Education</h2>

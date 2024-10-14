@@ -64,13 +64,18 @@ const ContactSection = () => {
                         </a>
                     </li>
                     <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <a href="">
+                        <a href="https://www.instagram.com/andres_gomez77/">
                             <img src={instagram} alt="instagram" width={24} height={24} />
                         </a>
                     </li>
                     <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <a href="">
+                        <a href="https://www.facebook.com/profile.php?id=100008506235166">
                             <img src={facebook} alt="facebook" width={24} height={24} />
+                        </a>
+                    </li>
+                    <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <a href="https://github.com/ANDRESGOM77">
+                            <img src={github} alt="facebook" width={24} height={24} />
                         </a>
                     </li>
                 </ul>
